@@ -46,33 +46,38 @@
 
 Структура проекта:
 
-`configuration`
+`configuration:`
 * [RestTemplateConfig](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/configuration/RestTemplateConfig.java)
 * [SwaggerConfig](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/configuration/SwaggerConfig.java)
 
-`controller`
+`controller:`
 * [EventGeneratorController](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/controller/EventGeneratorController.java)
 * [EventProcessorController](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/controller/EventProcessorController.java)
 
-`dto`
+`dto:`
 * [EventDto](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/dto/EventDto.java)
 * [IncidentDto](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/dto/IncidentDto.java)
 
-`enum`
+`enum:`
 * [EventType](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/enums/EventType.java)
 * [IncidentType](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/enums/IncidentType.java)
 
-`model`
+`model:`
 * [EventEntity](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/model/EventEntity.java)
 * [IncidentEntity](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/model/IncidentEntity.java)
 
-`repository`
+`repository:`
 * [EventRepository](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/repository/EventRepository.java)
 * [IncidentRepository](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/repository/IncidentRepository.java)
 
-`service`
+`service:`
 * [EventGeneratorService](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/service/EventGeneratorService.java)
 * [EventProcessorService](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/service/EventProcessorService.java)
 
-`точка входа`
+`точка входа:`
 * [Application](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/java/ru/spring_boot_testTask/eventGeneratorProcessor/Application.java)
+
+[application.yaml](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/main/resources/application.yaml)
+
+`тесты (только начал):`
+* [EventProcessorServiceUnitTest](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/test/java/ru/spring_boot_testTask/eventGeneratorProcessor/service/EventProcessorServiceUnitTest.java)
