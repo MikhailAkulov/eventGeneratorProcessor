@@ -81,3 +81,19 @@
 
 `тесты (только начал):`
 * [EventProcessorServiceUnitTest](https://github.com/MikhailAkulov/eventGeneratorProcessor/blob/main/eventGeneratorProcessor/src/test/java/ru/spring_boot_testTask/eventGeneratorProcessor/service/EventProcessorServiceUnitTest.java)
+
+---
+
+1. `Swagger` находится по стандартному пути: http://localhost:8080/swagger-ui/index.html
+
+2. `Генератор событий:`
+
+    1.1 По умолчанию постоянно генерирует события;
+
+    1.2 Имеет ручку `GET` для ручной генерации события: http://localhost:8080/api/generator/generate
+
+3. `Процессор событий:`
+
+    2.1 Имеет ручку `GET` для получения списка событий: http://localhost:8080/api/processor/incidents
+
+    2.2 Имеет ручку `POST` для приёма события от генератора и обработки его, для возможного создания инцидента: http://localhost:8080/api/processor/event
